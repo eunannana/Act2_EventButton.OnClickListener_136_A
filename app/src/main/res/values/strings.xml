@@ -9,4 +9,13 @@
     <string name="txemail">This is Email</string>
     <string name="txpassword">This is Password</string>
     <string name="label2">Successfully Login!</string>
+    <string name="lLogin">LOGIN</string>
+    <string name="mRegist">Registrastion</string>
+    <string name="lRegist">Regist</string>
+    <string name="ename">Input name</string>
+    <string name="eaddress">Input address</string>
+    <string name="eemail">Input email</string>
+    <string name="epass">Enter password</string>
+    <string name="erepass">Re-enter password</string>
+
 </resources>
