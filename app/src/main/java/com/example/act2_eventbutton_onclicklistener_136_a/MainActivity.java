@@ -50,10 +50,11 @@ public class MainActivity extends AppCompatActivity {
         password = ed_password.getText().toString();
 
         // set the right email
-        String email = "eunannana@gmail.com";
+        String email = "Ann";
 
         // set the right password
-        String pass = "thisisann";
+        String pass = "Ann123";
+
 
         if (name.isEmpty() && password.isEmpty()) {
             ed_email.setError("e-mail is required!");
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 b.putString("b", password.trim());
 
                 // make intent object move activity from mainactivity to result activity
-                Intent i = new Intent(getApplicationContext(), ResultActivity.class);
+                Intent i = new Intent(getApplicationContext(), HomeActivity.class);
 
                 // input bundle into intent that want to send to ResultActivity
                 i.putExtras(b);
@@ -114,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(getApplicationContext(), ListActivity.class);
             startActivity(i);
         }
+
         return super.onOptionsItemSelected(item);
     }
 

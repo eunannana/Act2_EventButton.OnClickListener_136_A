@@ -17,5 +17,12 @@
     <string name="eemail">Input email</string>
     <string name="epass">Enter password</string>
     <string name="erepass">Re-enter password</string>
+    <string name="viewdata">View Data</string>
+    <string name="editdata">Edit Data</string>
+    <string name="contactdata">Contact Data</string>
+    <string name="itemname">Item Name</string>
+    <string name="contactdetail">Contact Detail</string>
+    <string name="name">Name</string>
+    <string name="phoneno">Phone Number</string>
 
 </resources>
